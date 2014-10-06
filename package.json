@@ -1,0 +1,34 @@
+{
+  "name": "watchout",
+  "version": "1.0.0",
+  "description": "multiplayer watchout",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mLuby/watchout.git"
+  },
+  "author": { 
+    "name" : "Mike Luby",
+    "email" : "Michael@mLuby.com",
+    "url" : "http://github.com/mLuby"
+  },
+  "contributors": [{ 
+    "name" : "Jonathan Warrick",
+    "email" : "jonathan.warrick@gmail.com",
+    "url" : "http://github.com/JonathanWarrick"
+  }],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mLuby/watchout/issues"
+  },
+  "homepage": "https://github.com/mLuby/watchout",
+  "dependencies": {
+    "ip": "^0.3.1",
+    "socket.io": "^1.0.6",
+    "express": "^4.7.2"
+  }
+}
